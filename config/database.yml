@@ -1,4 +1,4 @@
-# PostgreSQL. Versions 9.1 and up are supported.
+cd# PostgreSQL. Versions 9.1 and up are supported.
 #
 # Install the pg driver:
 #   gem install pg
@@ -83,3 +83,4 @@ production:
   database: splurty_production
   username: splurty
   password: <%= ENV['SPLURTY_DATABASE_PASSWORD'] %>
+https://gist.github.com/kenmazaika/077bb791e6218d566fdb#file-database-yml-L22-L24
